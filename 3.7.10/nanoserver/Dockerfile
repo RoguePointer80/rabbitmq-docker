@@ -1,6 +1,8 @@
 # escape=`
-
 FROM mcr.microsoft.com/windows/nanoserver:1809
+
+LABEL maintainer="Francois Rivard - https://github.com/RoguePointer80"
+
 ENV HOMEDRIVE c:
 ENV HOMEPATH \Users\ContainerUser
 ADD erlang21.2.tar.gz c:\
